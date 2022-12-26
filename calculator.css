@@ -1,0 +1,96 @@
+.card-container{
+   width: 600px;
+   height: 350px;
+   box-shadow: 0 5px 10px black;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.left-div{
+    width: 45%;
+    height:90%;
+    box-shadow: 0 5px 10px black;
+    border-radius: 10px;
+}
+.top, .middile, .bottom{
+    margin-left: 20px;
+}
+input{
+    width: 90%;
+    height: 25px;
+    background-color: rgb(217, 230, 226);
+    border: none;
+    border-radius: 5px;
+   
+}
+.middile .buttons button{
+    background-color: rgb(19, 87, 73); 
+    padding: 8px 20px;
+    margin-top: 5px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.buttons .custom{
+    background-color: rgb(175, 211, 199);
+    color:rgb(19, 87, 73);  
+
+}
+.right-div{
+    width: 45%;
+    height: 90%;
+    box-shadow: 0 5px 10px black;
+    border-radius: 10px;
+    background-color: rgb(19, 87, 73);
+    position: relative;
+}
+.top-div{
+   
+    margin: 10px;
+    position: relative;
+    width: 250px;
+    height: 60%;
+}
+
+.bottom-div{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+.bottom-div button{
+    padding: 10px 100px;
+}
+.top-top h5{
+    color: white;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+.top-bottom h5{
+    color: white;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    
+}
+.top-top h1{
+    color: rgb(102, 205, 221);
+    
+    position: absolute;
+   right: 30px;
+   top: 0px;
+    
+}
+.top-bottom h1{
+    color: rgb(102, 205, 221);
+    position: absolute;
+   right: 30px;
+   bottom: 20px;
+    
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="card-container">
+        <div class="left-div">
+            <div class="top">
+                <h5>Bill</h5>
+                <input type="Number" id="bill">
+
+            </div>
+            <div class="middile">
+                <h5>Select Tip %</h5>
+               <div class="buttons" id="buttons">
+                <button>5%</button>
+                <button>10%</button>
+                <button>15%</button>
+                <button>25%</button>
+                <button>50%</button>
+                <button class="custom">custom</button>
+
+               </div>
+
+            </div>
+            <div class="bottom">
+                <h5>Number of people</h5>
+                <input type="number" id="people" >
+            </div>
+            
+
+        </div>
+        <div class="right-div">
+            <div class="top-div">
+                <div class="top-top">
+                    <h5>Tip Amount</h5>
+                <h1 id="tip-amount">$0.00</h1>
+                </div>
+                <div class="top-bottom">
+                    <h5>Total</h5>
+                <h1 id="total">$0.00</h1>
+            </div>
+
+            </div>
+            <div class="bottom-div">
+                <button>Reset</button>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
